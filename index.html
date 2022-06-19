@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="icon" href="images/pic1.png">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="images/pic1.png" alt="">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links">Accueil</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links">A propos</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links"> Nos services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#open" class="navbar__links">Réseaux partenaires</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#concept" class="navbar__links">Concept</a>
+          </li>
+          <li class="navbar__btn"><a href="#contact" class="button">Contactez nous</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Accueil Section -->
+    <div class="main" id="home">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>REVITEX</h1>
+          <p>Controle technique des véhicules</p>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/pic3.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="about">
+      <div class="services__container">
+        <div class="services__card">
+            <h2>A propos</h2>
+          <p> l’expression de la volonté des propriétaires de centres de contrôle techniques existant au Maroc depuis 1953, pour se regrouper en réseau propre dans lequel ils intègrent les préoccupations de la sécurité routière. </p>
+        </div>
+        <div class="services__card" id="services">
+            <h2>Nos services</h2>
+          <p>les préoccupations de la sécurité routière,la protection de l’environnement .
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="patenaire" id="open">
+            <div class="para"><h2>Réseaux partenaires</h2></div>
+     <div class="patenaire2">
+        <div class="cardd">
+            <img src="images/pic15.png" alt="">
+        </div>
+        <div class="cardd">
+            <img src="images/SGS_logo_logotype.png" alt="">
+        </div>
+        <div class="cardd">
+            <img src="images/imagesssdd.png" alt="">
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="container" id="contact">
+        <div style="text-align:center">
+          <h2>Contactez nous</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images/pic4.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="https://formspree.io/f/mdobvkng" method="POST">
+              <label for="fname">Prenom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Ton prenom...">
+              <label for="lname">Nom</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ton nom...">
+              <label for="country">Ville</label>
+              <select id="country" name="country">
+                <option value="Agadir">Agadir</option>
+                <option value="Al Hoceima">Al Hoceima</option>
+                <option value="Azilal">Azilal</option>
+                <option value="Beni Mellal">Beni Mellal</option>
+                <option value="Ben Slimane">Ben Slimane</option>
+                <option value="Boulemane">Boulemane</option>
+                <option value="Casablanca">Casablanca</option>
+                <option value="Chaouen">Chaouen</option>
+                <option value="El Jadida">El Jadida</option>
+                <option value="El Kelaa des Sraghna">El Kelaa des Sraghna</option>
+                <option value="Er Rachidia">Er Rachidia</option>
+                <option value="Essaouira">Essaouira</option>
+                <option value="Fes">Fes</option>
+                <option value="Figuig">Figuig</option>
+                <option value="Guelmim">Guelmim</option>
+                <option value="Ifrane">Ifrane</option>
+                <option value="Kenitra">Kenitra</option>
+                <option value="Khemisset">Khemisset</option>
+                <option value="Khenifra">Khenifra</option>
+                <option value="Khouribga">Khouribga</option>
+                <option value="Laayoune">Laayoune</option>
+                <option value="Larache">Larache</option>
+                <option value="Marrakech">Marrakech</option>
+                <option value="Meknes">Meknes</option>
+                <option value="Nador">Nador</option>
+                <option value="Ouarzazate">Ouarzazate</option>
+                <option value="Oujda">Oujda</option>
+                <option value="Rabat-Sale">Rabat-Sale</option>
+                <option value="Safi">Safi</option>
+                <option value="Settat">Settat</option>
+                <option value="Sidi Kacem">Sidi Kacem</option>
+                <option value="Tangier">Tangier</option>
+                <option value="Tan-Tan">Tan-Tan</option>
+                <option value="Taounate">Taounate</option>
+                <option value="Taroudannt">Taroudannt</option>
+                <option value="Tata">Tata</option>
+                <option value="Taza">Taza</option>
+                <option value="Tetouan">Tetouan</option>
+                <option value="Tiznit">Tiznit</option>
+              </select>
+              <label for="subject">Sujet</label>
+              <textarea id="subject" name="subject" placeholder="Ecrire votre message..." style="height:170px"></textarea>
+              <input type="submit" value="Envoyer">
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="footer__logo"><i class=""></i>REVITEX</a>
+          </div>
+          <p class="website__rights">© REVITEX 2012. All rights reserved</p>
+          <div class="social__icons">
+            <a
+            title="Localisation"
+              class="social__icon--link"
+              href="https://www.google.com/maps/place/Centre+Visite+Technique+Revitex/@31.3710105,-7.9482087,15z/data=!4m5!3m4!1s0x0:0xa9577c1e2a456eda!8m2!3d31.3710105!4d-7.9482087"
+              target="_blank"
+              aria-label="map"
+            >
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+            <a
+            title="Linkedin"
+              class="social__icon--link"
+              href="https://ma.linkedin.com/in/youness-hassin-b74a4b120"
+              target="_blank"
+              aria-label="Lin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            
+              <i class=""></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+
+    
+
+  </body>
+</html>
